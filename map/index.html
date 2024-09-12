@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de projetos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.836);
+        }
+
+        header {
+            background-color: rgb(47, 154, 255);
+            text-align: center;
+            color: white;
+            font-size: 1.5em;
+            padding: 30px;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .projects {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(121, 180, 236);
+            width: 300px;
+            border-radius: 5px;
+            margin: 30px;
+            padding: 10px;
+        }
+
+        img {
+            width: 50%;
+            border: 1px solid rgba(0, 0, 0, 0.164);
+            border-radius: 50%;
+        }
+
+        a {
+            width: 50%;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: rgb(0, 0, 0);
+            color: rgba(255, 255, 255, 0.795);
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        a:active {
+            background-color: greenyellow;
+            color: rgba(0, 0, 0, 0.664);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mapa de projetos</h1>
+    </header>
+    <main>
+        <div class="projects">
+            <img src="images/social-links.png" alt="Social Links">
+            <a href="/social-links-profile-main/index.html" target="_blank">Acessar página</a>
+        </div>
+        <div class="projects">
+            <img src="images/recipe.png" alt="Recipe">
+            <a href="/recipe-page-main/index.html" target="_blank">Acessar página</a>
+        </div>
+    </main>
+</body>
+</html>
